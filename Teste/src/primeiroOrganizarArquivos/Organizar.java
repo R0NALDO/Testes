@@ -62,6 +62,7 @@ public class Organizar {
 		System.out.println("última modificação: " + sdf.format(arquivo.lastModified()));
 	}
 	
+	//grava e le notas
 	public void ron() throws IOException {
 			//criando objetos
 		Scanner 	ler = new Scanner(System.in);
